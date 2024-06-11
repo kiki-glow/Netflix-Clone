@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="Website icon" type="png" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+   <div class="header">
+        <nav class="nav-links">
+            <img src="images/logo.jpeg" class="logo" alt="logo">
+            <ul id="sidemenu"> 
+                <li><a href="#features">Home</a></li>
+                <li><a href="#tvShows">TV Shows</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#originals">Originals</a></li>
+                <li><a href="#recents">Recently Added</a></li>
+            </ul> 
+            <div>
+                <button class="language-btn">English <img src="images/down-icon.png" alt="dropdown"></button>
+                <button>Sign In</button>
+                
+                <form method="post" id="sign-up" hidden>
+                    <h2>Sign Up</h2>
+                    Email: 
+                    <input type="email" name="email" id="email">
+                    Password:
+                    <input type="text" name="password" id="password">
+                </form>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="" class="email-signup" method="post">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit"> Get Started</button>
+            </form>
+        </div>
+   </div>
+   
+   <!------------------------------Features------------------------->
+   <div class="features">
+    <div class="row">
+        <div class="text-col">
+            <h2>Enjoy on your TV.</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <div class="img-col">
+            <img src="images/feature-1.jpg" alt="features">
+        </div>
+    </div>
+    <div class="row">
+        <div class="img-col">
+            <img src="images/feature-2.jpg" alt="features">
+        </div>
+        <div class="text-col">
+            <h2>Enjoy on your TV.</h2>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-col">
+            <h2>Watch Everywhere.</h2>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+        </div>
+        <div class="img-col">
+            <img src="images/feature-3.jpg" alt="features">
+        </div>
+    </div>
+    <div class="row">
+        <div class="img-col">
+            <img src="images/feature-4.jpg" alt="features">
+        </div>
+        <div class="text-col">
+            <h2>Create profiles for children.</h2>
+            <p>Send children on adventures with their favorite characters in a space made just for 
+                them-free with your membership.</p>
+        </div>
+    </div>
+   </div>
+
+   <!--FAQs-->
+   <div class="faq">
+       <h2>Frequently Asked Questions</h2>
+       <ul class="accordion">
+           <li>
+               <input type="radio" name="accordion" id="first">
+               <label for="first">What is Netflix?</label>
+               <div class="content">Netflix is <b>a subscription-based streaming service</b> 
+                that allows our members to watch TV shows and movies on an internet-connected device</div>
+           </li>
+           <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">What payment methods do you accept?</label>
+            <div class="content">All major credit cards, Visa, Mastercard, American Express and Discover. 
+                Also, Apple Pay, Google Pay, PayPal, and Shop Pay.</div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">How to cancel an order?</label>
+            <div class="content">Once an order is placed, it may not be possible to cancel an order. 
+                For more help, contact Customer Service.</div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="fourth">
+            <label for="fourth">How do I download titles to watch offline?</label>
+            <div class="content">Find a TV show or movie and look for the <b>Downloads</b> icon 
+                <img src="images/download.png"> to know if it can be downloaded, or filter by what is available for download.</div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="fifth">
+            <label for="fifth">How to create, change, or delete profiles?</label>
+            <div class="content">People who live together in a single household can have their own 
+                personalized Netflix experience. You can have up to 5 profiles on a single Netflix account.</div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="sixth">
+            <label for="sixth">Can't set up Netflix for kids?</label>
+            <div class="content">If you can't select <b>Kids Profile in Viewing Restrictions</b>, then the profile may be set 
+                to allow shows and movies with a higher maturity rating level than the <b>Netflix Kids experience.</b> </div>
+        </li>
+       </ul>
+   </div>
+
+
+</body>
+</html>
